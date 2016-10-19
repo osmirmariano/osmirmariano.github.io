@@ -1,2 +1,2 @@
 # osmirmariano.github.io
-My site Pessoal
+Meu site pessoal. Em desenvolvimento
