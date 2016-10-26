@@ -100,8 +100,7 @@ img{
 }
 
 .title h2{
-	margin-top: 7%;
-	margin-bottom: 5%;
+	margin-top: 40%;
 	font-size: 2.5em;
 	color: #fff;
 	font-weight: 700;
@@ -110,7 +109,8 @@ img{
 }
 
 .title h3{
-	
+	margin-top: 5%;
+	margin-bottom: 5%;
 	font-size: 1.5em;
 	color: #fff;
 }
@@ -261,10 +261,12 @@ img{
 	}
 
 	.title h2{
+		margin-top: 15%;
 		font-size: 3.3em;
 	}
 
 	.title h3{
+		margin-top: 5%;
 		font-size: 2.3em;
 	}
 }
@@ -272,7 +274,7 @@ img{
 /*SMALL DEVICES - TABLETS*/
 @media screen and (min-width: 768px){
 	.button{
-		width: 30%;
+		width: 10%;
 		margin-top: 2%;
 		float: right;
 		font-size: 0.8em;
@@ -295,10 +297,13 @@ img{
 	}
 
 	.title h2{
+		margin-top: 10%;
 		font-size: 3.5em;
 	}
 
 	.title h3{
+		margin-top: 5%;
+		margin-bottom: 5%;
 		font-size: 2.5em;
 	}
 }
@@ -389,7 +394,7 @@ img{
 }
 
 /*LARGE DEVICES - WIDE SCREENS*/
-@media screen and (min-width: 1280px){
+@media screen and (min-width: 1024px){
 	.servico{
 		width: 16%;
 		height: 30%;
@@ -403,10 +408,13 @@ img{
 	}
 
 	.title h2{
+		margin-top: 10%;
+		margin-bottom: 1px;
 		font-size: 4em;
 	}
 
 	.title h3{
+		margin-top: 1%;
 		font-size: 3em;
 	}
 
