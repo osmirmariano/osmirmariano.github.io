@@ -149,7 +149,7 @@ img{
 	height: 80%;
 	float: left;
 	padding: 3% 3%;
-	text-align: center;
+	text-align: left;
 
 }
 
@@ -160,7 +160,7 @@ img{
 	box-shadow: 2px 2px 2px 2px #8B8989;
 	 -webkit-box-shadow: 2px 2px 2px 2px #CDC9C9;
 	 -moz-box-shadow: 2px 2px 2px 2px #CDC9C9;
-	text-align: center;
+	text-align: left;
 	border-radius: 7px;
 	margin-top: 2%;
 	
