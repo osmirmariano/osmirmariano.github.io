@@ -1,3 +1,7 @@
+
+    
+  
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -5,7 +9,24 @@
     <script src="scrollreveal/dist/scrollreveal.min.js"></script>
     <script>
       window.sr = ScrollReveal();
+
+      // Add class to <html> if ScrollReveal is supported
+      if (sr.isSupported()) {
+        document.documentElement.classList.add('sr');
+      }
+
     </script>
+
+    <style>
+
+      /* Ensure elements load hidden before ScrollReveal runs */
+      .sr .fooReveal { visibility: hidden; }
+
+      /* add perspective to your container */
+      .fooContainer { perspective: 800px; }
+
+    </style>
+
   </head>
   <body>
 
@@ -15,9 +36,10 @@
       <div class="fooReveal"> Foo </div>
     </div>
 
-    <!-- make reveal calls last -->
+  <!-- make reveal calls last -->
     <script>
-      sr.reveal('.fooReveal', { container: '.fooContainer' });
+      // use rotation in reveal configuration
+      sr.reveal('.fooReveal', { container: '.fooContainer', rotate: {x: 65} });
     </script>
 
   </body>

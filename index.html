@@ -19,6 +19,10 @@
 	<script src="scrollreveal/dist/scrollreveal.min.js"></script>
     <script>
       window.sr = ScrollReveal();
+      // Add class to <html> if ScrollReveal is supported
+      if (sr.isSupported()) {
+        document.documentElement.classList.add('sr');
+      }
     </script>
 
 </head>
@@ -123,9 +127,10 @@
 	</main>
 
 	<script>
-	    sr.reveal('h2', { container: '.title' });
-	    sr.reveal('h3', { container: '.title' });
+	    sr.reveal('h2', { container: '.title', rotate: {x: 45} });
+	    sr.reveal('h3', { container: '.title', rotate: {x: 45} });
 	</script>
+	
 	<!--
 	<article class="desenvolvimento">
 		<div class="inner">

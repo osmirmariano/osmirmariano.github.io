@@ -21,7 +21,9 @@ a{
 img{
 	max-width: 100%;
 }
+.sr h2, h3 { visibility: hidden; }
 
+.title { perspective: 800px; }
 /* CABEÇALHO */
 
 
