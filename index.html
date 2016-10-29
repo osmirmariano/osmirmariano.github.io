@@ -15,6 +15,12 @@
 	<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
 	<!-- Alterar foto ainda-->
 	<link rel="icon"  href="img/icon.png">
+
+	<script src="scrollreveal/dist/scrollreveal.min.js"></script>
+    <script>
+      window.sr = ScrollReveal();
+    </script>
+
 </head>
 <body>
 	<div class="banner">
@@ -36,7 +42,7 @@
 		</header>
 
 
-		<div class="title">
+		<div class="title" >
 			<h2>OSMIR CUSTÓDIO MARIANO</h2>
 
 			<h3>Cientista da computação.<br> 
@@ -47,6 +53,7 @@
 			<button class="btn-saiba btn">LEIA MAIS<i class="fa fa-arrow-circle-right"></i></button>
 		</div>
 		-->
+
 	</div>
 
 	<main class="servicos">
@@ -115,6 +122,10 @@
 		</article>
 	</main>
 
+	<script>
+	    sr.reveal('h2', { container: '.title' });
+	    sr.reveal('h3', { container: '.title' });
+	</script>
 	<!--
 	<article class="desenvolvimento">
 		<div class="inner">
@@ -165,5 +176,8 @@
 	    });
 	});
 	</script>
+
+	
+
 </body>
 </html>

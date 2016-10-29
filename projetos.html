@@ -15,6 +15,12 @@
   	<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
   	<!-- Alterar foto ainda-->
   	<link rel="icon"  href="img/icon.png">
+
+    <script src="scrollreveal/dist/scrollreveal.min.js"></script>
+    <script>
+      window.sr = ScrollReveal();
+    </script>
+    
   </head>
   <body>
     <div class="banner">
@@ -36,11 +42,16 @@
   		</header>
 
     <div class="title">
-		<h2>PROJETOS</h2>
-		<h3>Projetos desenvolvidos</h3>
+  		<h2>PROJETOS</h2>
+  		<h3>Projetos desenvolvidos</h3>
 	</div>
 	</div>
-	
+
+	<script>
+      sr.reveal('h2', { container: '.title' });
+      sr.reveal('h3', { container: '.title' });
+  </script>
+
 	<main class="servicos">
 		<article class="servico">
 			<div class="inner">

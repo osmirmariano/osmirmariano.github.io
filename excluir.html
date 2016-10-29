@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- load and instantiate ScrollReveal first -->
+    <script src="scrollreveal/dist/scrollreveal.min.js"></script>
+    <script>
+      window.sr = ScrollReveal();
+    </script>
+  </head>
+  <body>
+
+    <div class="fooContainer">
+      <div class="fooReveal"> Foo </div>
+      <div class="fooReveal"> Foo </div>
+      <div class="fooReveal"> Foo </div>
+    </div>
+
+    <!-- make reveal calls last -->
+    <script>
+      sr.reveal('.fooReveal', { container: '.fooContainer' });
+    </script>
+
+  </body>
+</html>

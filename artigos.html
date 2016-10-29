@@ -15,6 +15,13 @@
   	<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
   	<!-- Alterar foto ainda-->
   	<link rel="icon"  href="img/icon.png">
+
+
+    <script src="scrollreveal/dist/scrollreveal.min.js"></script>
+    <script>
+      window.sr = ScrollReveal();
+    </script>
+    
   </head>
   <body>
     <div class="banner">
@@ -40,7 +47,10 @@
 			<h3>Artigos desenvolvidos</h3>
 		</div>
   </div>
-
+  <script>
+      sr.reveal('h2', { container: '.title' });
+      sr.reveal('h3', { container: '.title' });
+  </script>
     <!-- RODAPÉ -->
   	<footer class="rodape">
   		<div class="social-icons">
