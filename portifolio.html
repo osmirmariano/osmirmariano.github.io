@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 	<head>
+		<title>Portifólio -  Osmir Mariano</title>
 		<meta charset="utf-8">
 	  	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 	  	<title>Osmir Mariano - Artigos</title>
 	  	<meta name="description" content="Site pessoal Osmir Mariano, Cientista da Computação"/>
-	  	<meta name="keywords" content="Artigos, Projetos"/>
+	  	<meta name="keywords" content="Artigos, Portifólio"/>
 	  	<meta name="robots" content="index, follow"/>
 	  	<meta name="author" content="Artigos"/>
-	  	<link rel="stylesheet" href="css/artigos.css">
+	  	<link rel="stylesheet" href="css/Portifolio.css">
 	  	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 	  	<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
 	  	<!-- Alterar foto ainda-->
 	  	<link rel="icon"  href="img/icon.png">
 	</head>
 	<body>
-	    <div class="banner">
+		<div class="banner">
 	  		<header class="cabecalho">
 	  			<a href="index.html"></a><h1 class="logo"> Osmir Custódio Mariano</h1></a>
 	  			<button class="btn-menu"> <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
@@ -28,27 +29,17 @@
 	  					<li><a href="projetos.html">Projetos</a></li>
 	  					<li><a href="portifolio.html">Portifólio</a></li>
 	  					<li><a href="sobre.html">Sobre</a></li>
-	  					<li><a href="#">Contato</a></li>
+	  					<li><a href="contatos.html">Contato</a></li>
 	  				</ul>
 	  			</nav>
 	  		</header>
-
 	      	<div class="title">
-	  			<h2>ARTIGOS</h2>
-	  			<h3>Artigos desenvolvidos</h3>
+	  			<h2>PORTIFÓLIO</h2>
+	  			<h3>Conheça o meu portifólio</h3>
 	  		</div>
 	    </div>
 
-	  	<main class="servicos">
-	    	<article class="servico">
-	      		<div class="inner">
-	        		<a href="#">Titulo</a>
-	        		<h4>Descrição</h4>
-	      		</div>
-	    	</article>
-	  	</main>
-
-    	<!-- RODAPÉ -->
+		<!-- RODAPÉ -->
 	  	<footer class="rodape">
 	  		<div class="social-icons">
 	  			<a href="https://www.facebook.com/osmirmariano" target="_blank"><i class="fa fa-facebook"></i></a>
@@ -59,7 +50,7 @@
 	  		</div>
 	  		<p class="copyright">Copyright &copy Osmir Mariano 2016. Todos os direitos reservados.</p>
 	  	</footer>
-
+	    
 	  	<!-- JQUERY -->
 	  	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
 	  	<script>
@@ -75,16 +66,17 @@
 	  	<!-- JAVASCRIPT -->
 	  	<script>
 	  		jQuery("document").ready(function($){
+
 	  	    var menu = $('.cabecalho');
-	  	    $(window).scroll(function (){
-	  	        if ($(this).scrollTop() > 136){
+
+	  	    $(window).scroll(function () {
+	  	        if ($(this).scrollTop() > 136) {
 	  	            menu.addClass("f-menu");
-	  	        }
-	  	        else{
+	  	        } else {
 	  	            menu.removeClass("f-menu");
 	  	        }
-	  	    });
-	  	});
-  		</script>
-  	</body>
+		  	    });
+		  	});
+	  	</script>
+	</body>
 </html>

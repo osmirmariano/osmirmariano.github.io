@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">	
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>Osmir Mariano</title>
+		<meta name="description" content="Site pessoal Osmir Mariano, Cientista da Computação"/>
+		<meta name="keywords" content="Artigos, Projetos"/>
+		<meta name="robots" content="index, follow"/>
+		<meta name="author" content="Osmir Mariano"/>
+		<link rel="stylesheet" href="css/contados.css">
+		<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+		<!-- Alterar foto ainda-->
+		<link rel="icon"  href="img/icon.png">
+	</head>
+	
+	<body>
+		<div class="banner">
+			<header class="cabecalho">
+				<a href="index.html"></a><h1 class="logo"> Osmir Custódio Mariano</h1></a>
+				<button class="btn-menu"> <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
+				</button>
+				<nav class="menu">
+					<a class="btn-close"><i class="fa fa-times"></i></a>
+					<ul>
+						<li><a href="index.html">Início</a></li>
+						<li><a href="artigos.html">Artigos</a></li>
+						<li><a href="projetos.html">Projetos</a></li>
+						<li><a href="portifolio.html">Portifólio</a></li>
+						<li><a href="sobre.html">Sobre</a></li>
+						<li><a href="contatos.html">Contato</a></li>
+					</ul>
+				</nav>
+			</header>
+		</div>
+
+		<h1>E-mail</h1>
+		<h2>osmirmariano@uft.edu.br</h2>
+		<h2>Whatapp</h2>
+		<h2>(63)99291-5795</h2>
+
+		<!-- JQUERY -->
+	  	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+	  	<script>
+	  		$(".btn-menu").click(function(){
+	  			$(".menu").show();
+	  		});
+
+	  		$(".btn-close").click(function(){
+	  			$(".menu").hide();
+	  		});
+	  	</script>
+
+	  	<!-- JAVASCRIPT -->
+	  	<script>
+	  		jQuery("document").ready(function($){
+
+	  	    var menu = $('.cabecalho');
+
+	  	    $(window).scroll(function () {
+	  	        if ($(this).scrollTop() > 136) {
+	  	            menu.addClass("f-menu");
+	  	        } else {
+	  	            menu.removeClass("f-menu");
+	  	        }
+		  	    });
+		  	});
+	  	</script>
+	</body>
+</html>
