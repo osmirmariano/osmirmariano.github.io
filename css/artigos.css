@@ -490,6 +490,40 @@ img{
 		width: 100%;
 		background-color: rgb(0,0,0);
 	}
+
+	.inner h3{
+		font-size: 1em;
+		font-weight: 700;
+		text-align: left;
+	}
+
+	.inner h2{
+		padding: 2%;
+		font-weight: bolder;
+		font-size: 1.3em;
+		text-align: center;
+		color: gray;
+		font-style: italic;
+	}
+
+
+	.pdf{
+		float: right;
+		display: inline-block;
+		margin-top: -10%;
+	}
+
+	.servico{
+		width: 100%;
+		height: 260px;
+		background-color: white;
+		box-shadow: 2px 2px 2px 2px #8B8989;
+		-webkit-box-shadow: 2px 2px 2px 2px #CDC9C9;
+		-moz-box-shadow: 2px 2px 2px 2px #CDC9C9;
+		text-align: center;
+		border-radius: 7px;
+		margin-top: 2%;
+	}
 }
 
 /*LARGE DEVICES - WIDE SCREENS*/
