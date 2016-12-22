@@ -102,7 +102,6 @@ img{
 	color: #fff;
 	font-weight: 700;
 	text-shadow: 0 0 1em #4c4c4c;
-	font-weight: 700;
 }
 
 .title h3{
@@ -523,6 +522,15 @@ img{
 		text-align: center;
 		border-radius: 7px;
 		margin-top: 2%;
+	}
+
+	.logo{
+		width: 100px;
+		height: 100px;
+		float: left;
+		background: url(../img/logo-mobile.png) center center/100px no-repeat;
+		margin-top: -2%;
+		margin-left: -4%;
 	}
 }
 

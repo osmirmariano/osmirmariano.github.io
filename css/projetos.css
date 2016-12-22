@@ -391,6 +391,15 @@ img{
 		width: 100%;
 		background-color: rgb(0,0,0);
 	}
+
+	.logo{
+		width: 100px;
+		height: 100px;
+		float: left;
+		background: url(../img/logo-mobile.png) center center/100px no-repeat;
+		margin-top: -2%;
+		margin-left: -4%;
+	}
 }
 
 /*LARGE DEVICES - WIDE SCREENS*/

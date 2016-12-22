@@ -305,6 +305,8 @@ img{
 		margin-bottom: 5%;
 		font-size: 2.5em;
 	}
+
+
 }
 
 /*MEDIUM DEVICES - TABLETS & DESKTOPS*/
@@ -389,6 +391,15 @@ img{
 		top: 0; 
 		width: 100%;
 		background-color: rgb(0,0,0);
+	}
+
+	.logo{
+		width: 100px;
+		height: 100px;
+		float: left;
+		background: url(../img/logo-mobile.png) center center/100px no-repeat;
+		margin-top: -2%;
+		margin-left: -4%;
 	}
 }
 
