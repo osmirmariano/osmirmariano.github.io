@@ -92,7 +92,7 @@ img{
 	float: left;
 	text-align: center;
 	padding: 3% 4%;
-	/*background: url(../img/banner.jpg) no-repeat fixed; */
+	background: url(../img/banner.jpg) no-repeat fixed; 
 	background-size: cover; 
 	background-attachment:  fixed;
 	background-position: center;
